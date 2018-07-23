@@ -1,0 +1,21 @@
+
+<div style="width:200px; float:left; margin-right:200px;border:solid 1px #333;">
+    <div id="color">Frame Color</div>
+</div>
+<div>
+    <iframe id="child" src="b.html"></iframe>
+</div>
+
+<script>
+上层父级页面接收消息
+window.addEventListener('message',function(e){
+    var data = JSON.parse(e.data);
+    if(data.type==='hy'){
+        window.location.replace(data.url)
+    }
+    // console.log(data);
+	// 接收到消息之后的业务处理逻辑
+	// 其中e.data是传过来内容
+	// 其中e.source 传过来的对象
+})
+</script>

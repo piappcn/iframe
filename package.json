@@ -1,0 +1,25 @@
+{
+  "name": "hyiframe",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "piappcn@163.com",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/piappcn/iframe.git"
+  },
+  "keywords": [
+    "iframe"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/piappcn/iframe/issues"
+  },
+  "homepage": "https://github.com/piappcn/iframe#readme"
+}
